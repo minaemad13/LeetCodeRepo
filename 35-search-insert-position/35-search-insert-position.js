@@ -10,7 +10,6 @@ var searchInsert = function(nums, target) {
     }
     else{
         nums.push(target)
-        num2=
         res = nums.sort((a, b) => a - b).indexOf(target, 0);
         return res
     }
