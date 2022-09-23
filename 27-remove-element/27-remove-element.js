@@ -6,7 +6,6 @@
 var removeElement = function(nums, val) {
     for (let i = nums.length ; i >= 0 ; i--){
         if (nums[i] == val ){
-            console.log(i)
               nums.splice(i, 1); 
         }
     }
